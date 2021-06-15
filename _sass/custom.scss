@@ -9,18 +9,16 @@ body {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 16px;
 }
+code, kbd, pre, samp {
+  font-family: 'Inconsolata', SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+  font-size: 15px;
+  line-height: 22px;
+}
 .page-margin {
   margin-top: 100px;
 }
-ul {
+.no-list-style {
   list-style: none;
-}
-// .no-list-style {
-
-// }
-.highlight pre {
-  padding: 0.8rem 0.8rem;
-  background: #eee;
 }
 #page-content {
   flex: 1 0 auto;
@@ -32,4 +30,5 @@ ul {
 @import "syntax-highlighting";
 @import "animate.min";
 @import "home";
+@import "blogs";
 @import "responsive";

@@ -4,10 +4,18 @@
 
 // ipad and tablet
 @media (max-width: 768px) {
+  .blog-post-page {
+    .share ul li {
+      display: inline-block;
+    }
+  }
 }
 
 // standard mobile size
 @media (max-width: 500px) {
+  .blog-post-page .post-container:nth-child(2) {
+    margin-top: 0;
+  }
 }
 
 // small size mobile

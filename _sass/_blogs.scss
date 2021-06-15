@@ -1,0 +1,155 @@
+// blogs index page
+.blogs-page, .blog-tags-page {
+  .card-group {
+    margin-bottom: 2rem;
+  }
+  .card {
+    border: none;
+
+    .maxthumb {
+      max-height: 300px;
+    }
+    .card-img-top {
+      height: 15rem;
+      object-fit: cover;
+    }
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    .card-text {
+      color: rgba(0, 0, 0, .44);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+    .card-body {
+      padding-bottom: 0;
+    }
+    .card-footer {
+      background-color: #fff;
+      border: 0;
+
+      span {
+        font-size: 13px;
+        color: #777;
+      }
+    }
+  }
+  .post-tags {
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      font-size: 0.9rem;
+      margin-right: 0.25rem;
+
+      a {
+        background: rgba(0, 0, 0, .05);
+        color: rgba(0, 0, 0, .6);
+        border-radius: 3px;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+// single blog post
+.blog-post-page {
+
+  .post-container {
+    margin-top: 3rem;
+  }
+  h1, h2, h3 {
+    margin: 2.5rem 0 1.5rem 0;
+  }
+  h4, h5, h6 {
+    margin: 2rem 0 1.2rem 0;
+  }
+  p, ul {
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  pre {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px;
+    font-family: monospace, sans-serif;
+    font-size: .9rem;
+    white-space: pre;
+    overflow: auto;
+    border-radius: 0px;
+    line-height: 1.6;
+    color: #333;
+  }
+  .rouge-gutter pre, .rouge-code pre {
+    margin-bottom: 0;
+  }
+  .image-wrapper {
+    margin: 1.5rem 0;
+
+    p {
+      font-size: 12px;
+    }
+  }
+  .post-title {
+    font-size: 48px;
+    line-height: 60px;
+    color: #292929;
+    margin: 0;
+  }
+  .post-info {
+    color: #555;
+    font-size: 15px;
+  }
+  img {
+    width: 100%;
+  }
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .sticky-top-offset {
+    top: 130px;
+  }
+  .share {
+    a, a:hover {
+      text-decoration: none;
+    }
+    text-align: center;
+    ul {
+      padding-left: 0;
+      margin-left: 0;
+
+      li {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+  .share, .share a, .share a i {
+    color: blue !important;
+  }
+  .post-tags {
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      font-size: 0.9rem;
+      margin-right: 0.25rem;
+
+      a {
+        background: rgba(0, 0, 0, .05);
+        color: rgba(0, 0, 0, .6);
+        border-radius: 3px;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

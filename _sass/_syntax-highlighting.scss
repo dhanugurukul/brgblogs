@@ -1,12 +1,15 @@
 .highlight { background: #fff; }
 code.highlighter-rouge {
+  background: #eee;
+  border-radius: 5px;
+  color: #e83e8c;
   padding: 2px 5px !important;
 }
 .highlighter-rouge code {
   color: #333;
-  // font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', monospace !important;
 }
-.highlighter-rouge .highlight { background: #eee; }
+.highlighter-rouge .highlight, figure.highlight { background: #eee; }
 
 .highlight .c { color: #998; font-style: italic; }
 
